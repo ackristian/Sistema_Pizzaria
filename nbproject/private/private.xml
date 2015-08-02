@@ -2,6 +2,11 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/Users/Josue/Documents/NetBeansProjects/SistemaPizzaria/Sistema_Pizzaria/src/Model/PedidoModel.java</file>
+            <file>file:/C:/Users/Josue/Documents/NetBeansProjects/SistemaPizzaria/Sistema_Pizzaria/src/Controller/ClienteController.java</file>
+            <file>file:/C:/Users/Josue/Documents/NetBeansProjects/SistemaPizzaria/Sistema_Pizzaria/src/Visao/PedidoVisao.java</file>
+            <file>file:/C:/Users/Josue/Documents/NetBeansProjects/SistemaPizzaria/Sistema_Pizzaria/src/Controller/PedidoController.java</file>
+        </group>
     </open-files>
 </project-private>

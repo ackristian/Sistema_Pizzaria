@@ -133,7 +133,7 @@ public class Principal extends javax.swing.JFrame {
     }//GEN-LAST:event_jMenuItemCardapioActionPerformed
 
     private void jMenuItemPedidosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemPedidosActionPerformed
-        PedidoVisao frm = new PedidoVisao();
+        PedidoVisao frm = new PedidoVisao(1);
         Desktop.add(frm);
         frm.setVisible(true);
     }//GEN-LAST:event_jMenuItemPedidosActionPerformed

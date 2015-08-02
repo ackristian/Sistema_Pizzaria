@@ -1,6 +1,9 @@
 
 package Beans;
 
+import java.util.ArrayList;
+import java.util.List;
+
 
 public class PedidoBeans {
     private int codPedido;
@@ -11,8 +14,12 @@ public class PedidoBeans {
     private String Hora;
     private double Valor;
     private String Status;
+    private List<Integer>CodCardapio;
+    private List<Integer>Quantidade;
     
     public  PedidoBeans() {
+        CodCardapio = new ArrayList<>();
+        Quantidade = new ArrayList<>();
     
     }
 
@@ -126,6 +133,34 @@ public class PedidoBeans {
      */
     public void setStatus(String Status) {
         this.Status = Status;
+    }
+
+    /**
+     * @return the CodCardapio
+     */
+    public int getCodCardapio(int posicao) {
+        return CodCardapio.get(posicao);
+    }
+
+    /**
+     * @param CodCardapio the CodCardapio to set
+     */
+    public void setCodCardapio(int CodCardapio) {
+        this.CodCardapio.add(CodCardapio);
+    }
+
+    /**
+     * @return the Quantidade
+     */
+    public int getQuantidade(int posicao) {
+        return Quantidade.get(posicao);
+    }
+
+    /**
+     * @param Quantidade the Quantidade to set
+     */
+    public void setQuantidade(int Quantidade) {
+        this.Quantidade.add(Quantidade);
     }
     
 }
