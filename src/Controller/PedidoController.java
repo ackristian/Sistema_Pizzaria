@@ -24,6 +24,7 @@ public class PedidoController {
     }
     public void ControlePedido(String codCliente,String codFuncionario,String Total,int tamanhoTabela,PedidoBeans PediB){
         PediM.CadastrarPedido(codCliente, codFuncionario, Total,tamanhoTabela,PediB);
+        //Controle do pedido
     }
     public boolean verificaItens(String Valor, String Quantidade, String Codigo, String Item){
         try{
